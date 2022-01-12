@@ -1,0 +1,16 @@
+PODS:
+  - XBExtensionKit (0.1.0)
+
+DEPENDENCIES:
+  - XBExtensionKit (from `../`)
+
+EXTERNAL SOURCES:
+  XBExtensionKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  XBExtensionKit: 5f0ef628d7aa46a81718745c37a754faf2532c1d
+
+PODFILE CHECKSUM: 8535151effca0dcecf84647c56f332d5dd7d13e5
+
+COCOAPODS: 1.11.2
