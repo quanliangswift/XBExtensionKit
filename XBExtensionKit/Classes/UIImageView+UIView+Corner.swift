@@ -122,7 +122,7 @@ public extension UIImage {
     
 }
 
-extension UIImageView :CAAnimationDelegate{
+extension UIImageView {
     
     /**
      
