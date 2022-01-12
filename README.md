@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# XBExtensionKit
-=======
 # XBExtensionKit
 
 [![CI Status](https://img.shields.io/travis/1258658427@qq.com/XBExtensionKit.svg?style=flat)](https://travis-ci.org/1258658427@qq.com/XBExtensionKit)
