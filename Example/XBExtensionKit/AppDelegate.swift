@@ -7,7 +7,7 @@
 //
 
 import UIKit
-
+@_exported import XBExtensionKit
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
