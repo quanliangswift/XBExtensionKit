@@ -8,18 +8,18 @@
 
 import UIKit
 
-protocol StoryboardLoadable {}
+public protocol StoryboardLoadable {}
 
-extension StoryboardLoadable where Self: UIViewController {
+public extension StoryboardLoadable where Self: UIViewController {
     /// 提供 加载方法
     static func loadStoryboard() -> Self {
         return UIStoryboard(name: "\(self)", bundle: nil).instantiateViewController(withIdentifier: "\(self)") as! Self
     }
 }
 
-protocol NibLoadable {}
+public protocol NibLoadable {}
 
-extension NibLoadable {
+public extension NibLoadable {
     static func loadViewFromNib() -> Self {
         return Bundle.main.loadNibNamed("\(self)", owner: nil, options: nil)?.last as! Self
     }
