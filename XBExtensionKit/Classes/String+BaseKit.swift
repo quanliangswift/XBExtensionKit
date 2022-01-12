@@ -8,6 +8,7 @@
 
 import Foundation
 import CryptoSwift
+import CommonCrypto
 
 public extension String {
     func md5() -> String! {
