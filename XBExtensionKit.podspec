@@ -28,8 +28,9 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/quanliangswift/XBExtensionKit.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '9.0'
-
+  s.swift_version = '5.0'
+  s.ios.deployment_target = '10.0'
+  s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES', 'OTHER_LDFLAGS' => '-lObjC' }
   s.source_files = 'XBExtensionKit/Classes/**/*'
   
   # s.resource_bundles = {
