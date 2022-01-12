@@ -1,22 +1,27 @@
 {
   "name": "XBExtensionKit",
-  "version": "0.1.0",
-  "summary": "A short description of XBExtensionKit.",
+  "version": "0.1.1",
+  "summary": "对基础类的扩展",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/1258658427@qq.com/XBExtensionKit",
+  "homepage": "https://github.com/quanliangswift/XBExtensionKit",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "1258658427@qq.com": "quanliangani@gmail.com"
+    "quanliangswift": "quanliangani@gmail.com"
   },
   "source": {
-    "git": "https://github.com/1258658427@qq.com/XBExtensionKit.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/quanliangswift/XBExtensionKit.git",
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "XBExtensionKit/Classes/**/*"
+  "source_files": "XBExtensionKit/Classes/**/*",
+  "dependencies": {
+    "CryptoSwift": [
+      "~> 1.3.8"
+    ]
+  }
 }

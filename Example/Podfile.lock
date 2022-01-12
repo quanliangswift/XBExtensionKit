@@ -1,15 +1,22 @@
 PODS:
-  - XBExtensionKit (0.1.0)
+  - CryptoSwift (1.3.8)
+  - XBExtensionKit (0.1.1):
+    - CryptoSwift (~> 1.3.8)
 
 DEPENDENCIES:
   - XBExtensionKit (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - CryptoSwift
 
 EXTERNAL SOURCES:
   XBExtensionKit:
     :path: "../"
 
 SPEC CHECKSUMS:
-  XBExtensionKit: 5f0ef628d7aa46a81718745c37a754faf2532c1d
+  CryptoSwift: 01b0f0cba1d5c212e5a335ff6c054fb75a204f00
+  XBExtensionKit: 4038bbd72b5414c8cc9c787cad613c44a5715e7f
 
 PODFILE CHECKSUM: 8535151effca0dcecf84647c56f332d5dd7d13e5
 
